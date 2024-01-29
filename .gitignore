@@ -1,0 +1,9 @@
+.vscode
+idea
+db
+.env
+.env.*
+
+wordpress/custom_theme/vendor
+wordpress/custom_theme/node_modules
+wordpress/custom_theme/build
