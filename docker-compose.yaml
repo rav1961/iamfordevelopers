@@ -29,7 +29,7 @@ services:
       MYSQL_PASSWORD: ${DB_PASS}
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
-      - db:/var/lib/mysql
+      - ./db:/var/lib/mysql
     networks:
       - wp_net
 
